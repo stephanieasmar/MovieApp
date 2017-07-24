@@ -12,27 +12,17 @@ var posterURL="http://img.omdbapi.com/?i=tt3896198&h=600&apikey=1ca32dee";
 
 MOVIE_SELECTOR = '[data-movie-search="movieInput"]'
 
-
-//onLoad: Welcomes users to site via a popup window
-function onLoad() {
-    var openedWindow = window.open('')
-}
-
+// window.onload = function(){ alert("Hi there! Welcome to the OMDb Movie App!");}
 
 function makeMovieElement() {
     var movieEl = document.createElement('div');
     document.body.appendChild(movieEl);
 }
 
-
-
 function makePosterElement() {
     var posterEl = document.createElement('div');
     document.body.appendChild(posterEl);
 }
-
-
-
 
 //getMovieData: gets movie data
 function getMovieData(URL, movieEl) {
