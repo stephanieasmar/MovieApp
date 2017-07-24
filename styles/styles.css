@@ -5,8 +5,13 @@ html {
 }
 
 .movie-search {
-    margin-top: 50px;
-    /*border: 1px solid blue;*/
+    margin-top: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .75em;
 
+}
+
+.search-button {
+    margin-left: 50px;
+    margin-top: 5px;
 }
