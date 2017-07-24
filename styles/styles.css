@@ -1,0 +1,12 @@
+html {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.movie-search {
+    margin-top: 50px;
+    /*border: 1px solid blue;*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
