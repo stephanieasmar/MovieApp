@@ -9,13 +9,27 @@
     </head>
     <body>
         <h1>OMDb Movie Database</h1>
-        <div class="movie-search">
-              <label for="movie-search">Movie Title: </label>
-              <input class="movie-title" data-movie-search="movie-title" name="movie-title" id="movie-title" autofocus>
+        <form class="form-group" data-form-role="form">
+            <div class="movie-search">
+                <label for="movie-search">Movie Title: </label>
+                <input class="movie-search" data-movie-search="movie-search" name="movie-search" id="movie-search" autofocus>
+            </div>
+            <div class="search-button" data-button-role="search-button">      
+                <input class='search-button' type="submit" data-search-role="search-button" value="Search!">
+            </div>
+        </form>
+        <div class="movieSearchResults">
+            <div class="movieDisplay">
+                <img src="" data-poster-display="target" class="movie-display-top">
+                <div class="movieBlock">
+                    <p data-title-display="target" class="movie-display-title"></p>
+                </div>
+            </div>
         </div>
-        <div class="search-button" data-button-role="search-button">      
-              <button class='search-button' data-search-role="searchButton">Search!</button>
-        </div>
-        <script src="scripts/main.js"></script>
+        <script
+         src="https://code.jquery.com/jquery-3.2.1.min.js"
+         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+         crossorigin="anonymous"></script>
+         <script src="scripts/main.js" charset="utf-8"></script>
     </body>
 </html>
